@@ -11,10 +11,14 @@
 
 <body>
   <header>
-    <h1>Welcome to the Four Seasons Museum</h1>
+    <h1>BEZY Fitness Exercise Index</h1>
   </header>
   <nav>
     <a href="/">Home</a>
+    <a href="/">About
+      
+    </a>
+    <a>Contact</a>
     <!-- If the user is logged in, show a logout button -->
     {{#if loggedIn}}
     <button id="logout" class="btn-no-style">Logout</button>
@@ -27,14 +31,19 @@
     <aside>
       <h2>Enjoy the galleries!</h2>
     </aside>
+    
     <div class="gallery">
       {{{body}}}
+      
     </div>
   </main>
   <!-- If the user is logged in, load the JS script for when they logout -->
   {{#if loggedIn}}
   <script src="/js/logout.js"></script>
   {{/if}}
+
+  
+      
 </body>
 
 </html>
