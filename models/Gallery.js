@@ -23,6 +23,10 @@ Gallery.init(
       type: DataTypes.DATE,
       allowNull: false,
     },
+    filename: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     sequelize,
