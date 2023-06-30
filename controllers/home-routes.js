@@ -1,10 +1,10 @@
 const router = require('express').Router();
-const { Gallery, Painting } = require('../models');
+const { MuscleGroup, Painting } = require('../models');
 
 // GET all galleries for homepage
 router.get('/', async (req, res) => {
   try {
-    const dbGalleryData = await Gallery.findAll({
+    const dbGalleryData = await MuscleGroup.findAll({
       include: [
         {
           model: Painting,
@@ -30,7 +30,7 @@ router.get('/', async (req, res) => {
 // GET one gallery
 router.get('/gallery/:id', async (req, res) => {
   try {
-    const dbGalleryData = await Gallery.findByPk(req.params.id, {
+    const dbGalleryData = await MuscleGroup.findByPk(req.params.id, {
       include: [
         {
           model: Painting,

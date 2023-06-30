@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Gallery extends Model {}
+class MuscleGroup extends Model {}
 
-Gallery.init(
+MuscleGroup.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -36,4 +36,4 @@ Gallery.init(
   }
 );
 
-module.exports = Gallery;
+module.exports = MuscleGroup;
