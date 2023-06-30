@@ -1,11 +1,11 @@
 const sequelize = require('../config/connection');
 const seedMuscleGroups = require('./muscleGroupData');
-const seedExercises = require('./paintingData');
+const seedExercises = require('./exerciseData');
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
 
-  await seedMuscleGroup();
+  await seedMuscleGroups();
 
   await seedExercises();
 
