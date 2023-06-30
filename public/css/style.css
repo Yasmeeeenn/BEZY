@@ -1,8 +1,8 @@
 :root {
-  --primary: #0077B6;
-  --secondary: #00B4D8;
-  --tertiary: #03045E;
-  --quatrinary: #6c6b67;
+  --primary: #315A93;
+  --secondary: #315A93;
+  --tertiary: #254A2B;
+  --quatrinary: #DCC194;
   --light: #e3e4e3;
   --dark: #182c23;
   --error: rgb(228, 46, 1);
@@ -10,7 +10,8 @@
 }
 
 body {
-  font-family: Arial;
+  color: #DCC194;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
   margin: 0;
   display: flex;
   flex-direction: column;
