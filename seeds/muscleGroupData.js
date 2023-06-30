@@ -34,6 +34,6 @@ const gallerydata = [
   },
 ];
 
-const seedMuscleGroup = () => MuscleGroup.bulkCreate(gallerydata);
+const seedMuscleGroups = () => MuscleGroup.bulkCreate(gallerydata);
 
-module.exports = seedMuscleGroup;
+module.exports = seedMuscleGroups;
