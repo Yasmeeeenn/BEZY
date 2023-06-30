@@ -26,6 +26,7 @@ Gallery.init(
     filename: {
       type: DataTypes.STRING,
       allowNull: false,
+      
     },
   },
   {
