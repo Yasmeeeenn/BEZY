@@ -32,7 +32,7 @@ MuscleGroup.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'gallery',
+    modelName: 'muscleGroup',
   }
 );
 

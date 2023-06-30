@@ -31,10 +31,10 @@ Exercise.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    gallery_id: {
+    muscleGroup_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'gallery',
+        model: 'muscleGroup',
         key: 'id',
       },
     },
@@ -43,7 +43,7 @@ Exercise.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'painting',
+    modelName: 'exercise',
   }
 );
 

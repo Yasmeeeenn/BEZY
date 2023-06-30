@@ -3,11 +3,11 @@ const MuscleGroup = require('./MuscleGroup');
 const Exercise = require('./Exercise');
 
 MuscleGroup.hasMany(Exercise, {
-  foreignKey: 'gallery_id',
+  foreignKey: 'muscleGroup_id',
 });
 
 Exercise.belongsTo(MuscleGroup, {
-  foreignKey: 'gallery_id',
+  foreignKey: 'muscleGroup_id',
 });
 
 module.exports = { User, MuscleGroup, Exercise };
