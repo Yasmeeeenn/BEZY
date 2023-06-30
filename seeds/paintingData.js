@@ -1,4 +1,4 @@
-const { Painting } = require('../models');
+const { Exercise } = require('../models');
 
 const paintingdata = [
   {
@@ -136,6 +136,6 @@ const paintingdata = [
   },
 ];
 
-const seedPaintings = () => Painting.bulkCreate(paintingdata);
+const seedExercises = () => Exercise.bulkCreate(paintingdata);
 
-module.exports = seedPaintings;
+module.exports = seedExercises;

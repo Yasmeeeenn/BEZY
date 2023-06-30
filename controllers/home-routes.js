@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { MuscleGroup, Painting } = require('../models');
+const { MuscleGroup, Exercise } = require('../models');
 
 // GET all galleries for homepage
 router.get('/', async (req, res) => {
@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
     const dbGalleryData = await MuscleGroup.findAll({
       include: [
         {
-          model: Painting,
+          model: Exercise,
           attributes: ['filename', 'description'],
         },
       ],
@@ -33,7 +33,7 @@ router.get('/gallery/:id', async (req, res) => {
     const dbGalleryData = await MuscleGroup.findByPk(req.params.id, {
       include: [
         {
-          model: Painting,
+          model: Exercise,
           attributes: [
             'id',
             'title',
@@ -58,7 +58,7 @@ router.get('/gallery/:id', async (req, res) => {
 // GET one painting
 router.get('/painting/:id', async (req, res) => {
   try {
-    const dbPaintingData = await Painting.findByPk(req.params.id);
+    const dbPaintingData = await Exercise.findByPk(req.params.id);
 
     const painting = dbPaintingData.get({ plain: true });
     // Send over the 'loggedIn' session variable to the 'homepage' template
