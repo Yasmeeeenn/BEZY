@@ -1,8 +1,15 @@
 :root {
+<<<<<<< HEAD
   --primary: #315A93;
   --secondary: #315A93;
   --tertiary: #254A2B;
   --quatrinary: #DCC194;
+=======
+  --primary: #041822;
+  --secondary: #e3c49e;
+  --tertiary: #07084100;
+  --quatrinary: #989898;
+>>>>>>> de7d05c184460f19b82938eb98557e368cd26fd1
   --light: #e3e4e3;
   --dark: #182c23;
   --error: rgb(228, 46, 1);
@@ -10,8 +17,12 @@
 }
 
 body {
+<<<<<<< HEAD
   color: #DCC194;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+=======
+  font-family: 'Gold Lines Serif Trial', sans-serif;
+>>>>>>> de7d05c184460f19b82938eb98557e368cd26fd1
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -40,6 +51,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
+  color: var(--quatrinary);
 }
 
 aside {
@@ -130,8 +142,9 @@ img {
 }
 
 .card header {
-  color: var(--light);
+  color: var(--dark);
   font-weight: bold;
+  font-size: 30px;
   text-transform: uppercase;
   margin: 0;
   background-color: var(--tertiary);
@@ -145,21 +158,36 @@ img {
   font-weight: bold;
 }
 
+#muscle-group {
+  height: 400px;
+  width: 323px;
+}
+
 .gallery-name {
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-shadow: 2px 2px 5px var(--secondary);
-  border: 10px groove var(--light);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 100px;
-  padding-left: 100px;
+  font-size: 7vw;
+  color: white;
+  -webkit-text-stroke: 0.3vw #577a7c;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
-/* LAYOUT */
-.container {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: flex-start;
-  align-items: center;
+
+@keyframes animate
+{
+  0%, 10%, 100%
+  {
+    width: 0;
+  }
+  70%, 80%
+  {
+    width: 100%;
+  }
 }
