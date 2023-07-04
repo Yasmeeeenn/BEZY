@@ -1,7 +1,6 @@
 <section class="container">
+<link href="https://fonts.cdnfonts.com/css/gold-lines-serif-trial" rel="stylesheet">
   <h3 class="gallery-name">{{gallery.name}}</h3>
-  <h4>Opening Hour: {{format_time gallery.starting_date}}</h4>
-  <h4>Closing Hour: {{format_time gallery.ending_date}}</h4>
   <!-- If the user is logged in, render the gallery content -->
   {{#if loggedIn}}
   <section class="flex-row justify-center">
@@ -14,4 +13,9 @@
 {{else}}
 <a href="/login">You must login first to view the paintings</a>
 {{/if}}
+<style>
+@import url('https://fonts.cdnfonts.com/css/gold-lines-serif-trial');
+</style>
+                
+                     
 
