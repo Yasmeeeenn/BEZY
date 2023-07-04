@@ -89,8 +89,6 @@ nav a:hover {
 }
 
 img {
-  /* height: 400px;
-  width: 323px; */
   max-width: 100%;
   height: auto;
 }
@@ -159,7 +157,7 @@ img {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding-top: 30px;
   padding-bottom: 30px;
-  font-size: 12vw;
+  font-size: 7vw;
   color: white;
   -webkit-text-stroke: 0.3vw #577a7c;
   width: 0;
