@@ -1,15 +1,8 @@
 :root {
-<<<<<<< HEAD
-  --primary: #315A93;
-  --secondary: #315A93;
-  --tertiary: #254A2B;
-  --quatrinary: #DCC194;
-=======
   --primary: #041822;
   --secondary: #e3c49e;
   --tertiary: #07084100;
   --quatrinary: #989898;
->>>>>>> de7d05c184460f19b82938eb98557e368cd26fd1
   --light: #e3e4e3;
   --dark: #182c23;
   --error: rgb(228, 46, 1);
@@ -17,12 +10,7 @@
 }
 
 body {
-<<<<<<< HEAD
-  color: #DCC194;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-=======
-  font-family: 'Gold Lines Serif Trial', sans-serif;
->>>>>>> de7d05c184460f19b82938eb98557e368cd26fd1
+  font-family: "Gold Lines Serif Trial", sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -43,6 +31,7 @@ a:visited {
 header {
   padding: 40px;
   text-align: center;
+  text-decoration: none;
   background: var(--primary);
   color: var(--light);
 }
@@ -77,6 +66,7 @@ nav a {
 nav a:hover {
   color: var(--secondary);
   background-color: var(--dark);
+  text-decoration: none;
 }
 
 .gallery {
@@ -120,6 +110,7 @@ img {
 
 /* CARDS */
 .card {
+  text-decoration: none;
   margin: 20px;
   flex: 0 1 300px;
   border: 7px double var(--dark);
@@ -156,6 +147,7 @@ img {
   font-size: 1.4rem;
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #muscle-group {
@@ -179,15 +171,14 @@ img {
   border-right: 1px solid rgb(0, 0, 0);
 }
 
-
-@keyframes animate
-{
-  0%, 10%, 100%
-  {
+@keyframes animate {
+  0%,
+  10%,
+  100% {
     width: 0;
   }
-  70%, 80%
-  {
+  70%,
+  80% {
     width: 100%;
   }
 }
