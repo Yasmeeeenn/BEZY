@@ -1,6 +1,6 @@
 const { MuscleGroup } = require("../models");
 
-const muscleGroupdata = [
+const muscleGroupData = [
   {
     name: "Chest",
     starting_date: "April 20, 2021 07:00:00",
@@ -34,6 +34,6 @@ const muscleGroupdata = [
   },
 ];
 
-const seedMuscleGroups = () => MuscleGroup.bulkCreate(muscleGroupdata);
+const seedMuscleGroups = () => MuscleGroup.bulkCreate(muscleGroupData);
 
 module.exports = seedMuscleGroups;

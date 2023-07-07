@@ -1,6 +1,6 @@
 const { Exercise } = require('../models');
 
-const exercisedata = [
+const exerciseData = [
   {
     title: 'Close Grip Pushup',
     artist: 'Difficulty Level: Hard',
@@ -136,6 +136,6 @@ const exercisedata = [
   },
 ];
 
-const seedExercises = () => Exercise.bulkCreate(exercisedata);
+const seedExercises = () => Exercise.bulkCreate(exerciseData);
 
 module.exports = seedExercises;

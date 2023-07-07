@@ -4,7 +4,7 @@ const { MuscleGroup, Exercise } = require('../models');
 // GET all galleries for homepage
 router.get('/', async (req, res) => {
   try {
-    const dbGalleryData = await MuscleGroup.findAll({
+    const dbMuscleGroupData = await MuscleGroup.findAll({
       include: [
         {
           model: Exercise,
@@ -13,12 +13,12 @@ router.get('/', async (req, res) => {
       ],
     });
 
-    const galleries = dbGalleryData.map((gallery) =>
-      gallery.get({ plain: true })
+    const muscleGroups = dbMuscleGroupData.map((muscleGroup) =>
+      muscleGroup.get({ plain: true })
     );
     // Send over the 'loggedIn' session variable to the 'homepage' template
     res.render('homepage', {
-      galleries,
+      muscleGroups,
       loggedIn: req.session.loggedIn,
     });
   } catch (err) {
@@ -28,9 +28,9 @@ router.get('/', async (req, res) => {
 });
 
 // GET one gallery
-router.get('/gallery/:id', async (req, res) => {
+router.get('/muscleGroup/:id', async (req, res) => {
   try {
-    const dbGalleryData = await MuscleGroup.findByPk(req.params.id, {
+    const dbMuscleGroupData = await MuscleGroup.findByPk(req.params.id, {
       include: [
         {
           model: Exercise,
@@ -46,9 +46,9 @@ router.get('/gallery/:id', async (req, res) => {
       ],
     });
 
-    const gallery = dbGalleryData.get({ plain: true });
+    const muscleGroup = dbMuscleGroupData.get({ plain: true });
     // Send over the 'loggedIn' session variable to the 'gallery' template
-    res.render('gallery', { gallery, loggedIn: req.session.loggedIn });
+    res.render('muscleGroup', { muscleGroup, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
@@ -56,13 +56,13 @@ router.get('/gallery/:id', async (req, res) => {
 });
 
 // GET one painting
-router.get('/painting/:id', async (req, res) => {
+router.get('/exercise/:id', async (req, res) => {
   try {
-    const dbPaintingData = await Exercise.findByPk(req.params.id);
+    const dbExerciseData = await Exercise.findByPk(req.params.id);
 
-    const painting = dbPaintingData.get({ plain: true });
+    const exercise = dbExerciseData.get({ plain: true });
     // Send over the 'loggedIn' session variable to the 'homepage' template
-    res.render('painting', { painting, loggedIn: req.session.loggedIn });
+    res.render('exercise', { exercise, loggedIn: req.session.loggedIn });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
