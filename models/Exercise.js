@@ -15,7 +15,7 @@ Exercise.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    artist: {
+    difficulty: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -24,6 +24,10 @@ Exercise.init(
       allowNull: false,
     },
     filename: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    motion_file: {
       type: DataTypes.STRING,
       allowNull: false,
     },

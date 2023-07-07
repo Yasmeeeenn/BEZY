@@ -37,7 +37,7 @@ router.get('/muscleGroup/:id', async (req, res) => {
           attributes: [
             'id',
             'title',
-            'artist',
+            'difficulty',
             'exhibition_date',
             'filename',
             'description',
