@@ -16,6 +16,7 @@ router.get('/', async (req, res) => {
     const muscleGroups = dbMuscleGroupData.map((muscleGroup) =>
       muscleGroup.get({ plain: true })
     );
+    console.log(muscleGroups)
     // Send over the 'loggedIn' session variable to the 'homepage' template
     res.render('homepage', {
       muscleGroups,
@@ -27,7 +28,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// GET one gallery
+// GET muscle groups
 router.get('/muscleGroup/:id', async (req, res) => {
   try {
     const dbMuscleGroupData = await MuscleGroup.findByPk(req.params.id, {

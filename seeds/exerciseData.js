@@ -5,7 +5,7 @@ const exerciseData = [
     title: "Barbell Bench Press",
     difficulty: "Hard",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "barbell-bench-press.png",
     motion_file: "barbell-bench-press.gif",
     description:
@@ -15,7 +15,7 @@ const exerciseData = [
     title: "Cable Crossover",
     difficulty: "Easy",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "cable-crossover.png",
     motion_file: "cable-crossover.gif",
     description:
@@ -25,7 +25,7 @@ const exerciseData = [
     title: "Dips",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "chest-dips.jpg",
     motion_file: "dips.gif",
     description:
@@ -35,7 +35,7 @@ const exerciseData = [
     title: "Decline Cable Fly",
     difficulty: "Hard",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "decline-cable-fly.jpg",
     motion_file: "decline-cable-fly.gif",
     description:
@@ -45,7 +45,7 @@ const exerciseData = [
     title: "Chest Press",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "chest-press.png",
     motion_file: "chest-press.gif",
     description:
@@ -55,7 +55,7 @@ const exerciseData = [
     title: "Decline Push-Ups",
     difficulty: "Hard",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "decline-pushup.png",
     motion_file: "decline-pushup.gif",
     description:
@@ -65,7 +65,7 @@ const exerciseData = [
     title: "Dips",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "dips.png",
     motion_file: "dips.gif",
     description:
@@ -75,7 +75,7 @@ const exerciseData = [
     title: "Dumbbell Fly",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "dumbbell-fly.png",
     motion_file: "dumbbell-fly.gif",
     description:
@@ -85,7 +85,7 @@ const exerciseData = [
     title: "Dumbbell Pull-Over",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "dumbbell-pullover.jpg",
     motion_file: "dumbbell-pullover.gif",
     description:
@@ -95,7 +95,7 @@ const exerciseData = [
     title: "Front Raise",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
-    gallery_id: 1,
+    muscleGroup_id: 1,
     filename: "front-raise.png",
     motion_file: "front-raise.gif",
     description:
@@ -105,7 +105,7 @@ const exerciseData = [
     title: "Squats",
     difficulty: "Hard",
     exhibition_date: "June 10, 2019",
-    gallery_id: 2,
+    muscleGroup_id: 2,
     filename: "squat.jpg",
     motion_file: "squat.gif",
     description:
@@ -115,7 +115,7 @@ const exerciseData = [
     title: "Good-Mornings",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
-    gallery_id: 2,
+    muscleGroup_id: 2,
     filename: "good-mornings.jpg",
     motion_file: "good-mornings.gif",
     description:
@@ -125,7 +125,7 @@ const exerciseData = [
     title: "Lunges",
     difficulty: "Moderate",
     exhibition_date: "August 14, 2016",
-    gallery_id: 2,
+    muscleGroup_id: 2,
     filename: "lunges.jpg",
     motion_file: "lunges.gif",
     description:
@@ -135,7 +135,7 @@ const exerciseData = [
     title: "Straight Leg Deadlift",
     difficulty: "Hard",
     exhibition_date: "June 10, 2019",
-    gallery_id: 2,
+    muscleGroup_id: 2,
     filename: "straight-leg-deadlift.jpg",
     motion_file: "straight-leg-deadlift.gif",
     description:
@@ -145,7 +145,7 @@ const exerciseData = [
     title: "Pull-ups",
     difficulty: "Hard",
     exhibition_date: "November 3, 2016",
-    gallery_id: 3,
+    muscleGroup_id: 3,
     filename: "pull-up.jpg",
     motion_file: "pull-up.gif",
     description:
@@ -155,7 +155,7 @@ const exerciseData = [
     title: "Lat Pulldown",
     difficulty: "Hard",
     exhibition_date: "November 3, 2016",
-    gallery_id: 3,
+    muscleGroup_id: 3,
     filename: "lat-pulldown.jpg",
     motion_file: "lat-pulldown.gif",
     description:
@@ -165,7 +165,7 @@ const exerciseData = [
     title: "Bent over row",
     difficulty: "Moderate",
     exhibition_date: "November 3, 2016",
-    gallery_id: 3,
+    muscleGroup_id: 3,
     filename: "bent-over-row.jpg",
     motion_file: "bent-over-row.gif",
     description:
@@ -175,7 +175,7 @@ const exerciseData = [
     title: "Underhand Chin-ups",
     difficulty: "Moderate",
     exhibition_date: "November 3, 2016",
-    gallery_id: 3,
+    muscleGroup_id: 3,
     filename: "underhand-chin-up.jpg",
     motion_file: "underhand-chin-up.gif",
     description:
@@ -185,7 +185,7 @@ const exerciseData = [
     title: "Tricep Kickback",
     difficulty: "Easy",
     exhibition_date: "December 24, 2020",
-    gallery_id: 4,
+    muscleGroup_id: 4,
     filename: "tricep-kickback.jpg",
     motion_file: "tricep-kickback.gif",
     description:
@@ -195,7 +195,7 @@ const exerciseData = [
     title: "Barbell Curl",
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
-    gallery_id: 4,
+    muscleGroup_id: 4,
     filename: "barbell-curl.jpg",
     motion_file: "barbell-curl.gif",
     description:
@@ -205,7 +205,7 @@ const exerciseData = [
     title: "Hammer Curl",
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
-    gallery_id: 4,
+    muscleGroup_id: 4,
     filename: "hammer-curl.jpg",
     motion_file: "hammer-curl.gif",
     description:
@@ -215,7 +215,7 @@ const exerciseData = [
     title: "Tricep Push-down",
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
-    gallery_id: 4,
+    muscleGroup_id: 4,
     filename: "cable-tricep.jpg",
     motion_file: "cable-tricep.gif",
     description:
@@ -225,7 +225,7 @@ const exerciseData = [
     title: "Decline Crunch",
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
-    gallery_id: 5,
+    muscleGroup_id: 5,
     filename: "decline-crunch.jpg",
     motion_file: "decline-crunch.gif",
     description:
@@ -235,7 +235,7 @@ const exerciseData = [
     title: "Sit-Ups",
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
-    gallery_id: 5,
+    muscleGroup_id: 5,
     filename: "sit-up.jpg",
     motion_file: "sit-up.gif",
     description:
@@ -245,7 +245,7 @@ const exerciseData = [
     title: "Leg Lifts",
     difficulty: "Moderate",
     exhibition_date: "January 20, 2018",
-    gallery_id: 5,
+    muscleGroup_id: 5,
     filename: "leg-lifts.jpg",
     motion_file: "leg-lifts.gif",
     description:
@@ -255,7 +255,7 @@ const exerciseData = [
     title: "Ab Wheel",
     difficulty: "Hard",
     exhibition_date: "January 20, 2018",
-    gallery_id: 5,
+    muscleGroup_id: 5,
     filename: "ab-wheel.jpg",
     motion_file: "ab-wheel.gif",
     description:
