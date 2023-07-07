@@ -242,11 +242,71 @@ const paintingdata = [
       "The underhand chin-up is a variation of the traditional chin-up exercise targeting the muscles of the back, biceps, and shoulders.",
   },
   {
+    title: "Dumbbell Row",
+    difficulty: "Moderate",
+    exhibition_date: "November 3, 2016",
+    gallery_id: 3,
+    filename: "dumbbell-row.png",
+    motion_file: "dumbbell-row.gif",
+    description:
+      "Dumbbell rows are a compound exercise where you bend forward, support your body with one hand on a bench, and pull a dumbbell up to your side, targeting the back muscles, particularly the lats and rhomboids.",
+  },
+  {
+    title: "Hyperextensions",
+    difficulty: "Easy",
+    exhibition_date: "November 3, 2016",
+    gallery_id: 3,
+    filename: "hyperextensions.png",
+    motion_file: "hyperextensions.gif",
+    description:
+      "Hyperextensions, also known as back extensions, are an exercise where you lie face down on a hyperextension bench or stability ball and lift your upper body upward, targeting the muscles of the lower back.",
+  },
+  {
+    title: "Inverted Row",
+    difficulty: "Easy",
+    exhibition_date: "November 3, 2016",
+    gallery_id: 3,
+    filename: "inverted-row.jpg",
+    motion_file: "inverted-row.gif",
+    description:
+      "Inverted rows, also known as bodyweight rows or horizontal pulls, are an exercise where you lie under a bar or suspension trainer and pull your chest up towards the bar, targeting the back muscles.",
+  },
+  {
+    title: "One Arm Dumbbell Row",
+    difficulty: "Moderate",
+    exhibition_date: "November 3, 2016",
+    gallery_id: 3,
+    filename: "one-arm-dumbbell-row.png",
+    motion_file: "one-arm-dumbbell-row.gif",
+    description:
+      "One-arm dumbbell rows are an exercise where you stabilize your body with one hand on a bench while pulling a dumbbell up to your side with the opposite arm, targeting the back muscles, especially the lats and rhomboids.",
+  },
+  {
+    title: "Underhand Bent Over Row",
+    difficulty: "Moderate",
+    exhibition_date: "November 3, 2016",
+    gallery_id: 3,
+    filename: "underhand-bent-over-row.jpg",
+    motion_file: "underhand-bent-over-row.gif",
+    description:
+      "Underhand bent over rows are a variation of the bent over row exercise where you grip the barbell or dumbbells with an underhand grip, bend forward, and row the weight towards your lower chest, targeting the upper back and biceps.",
+  },
+  {
+    title: "Dumbbell Pull-Over",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    gallery_id: 3,
+    filename: "dumbbell-pullover.jpg",
+    motion_file: "dumbbell-pullover.gif",
+    description:
+      "Dumbbell pull-overs are an exercise where you lie on a bench, hold a dumbbell above your chest, and lower it behind your head in a controlled motion, engaging the chest, back, and shoulder muscles.",
+  },
+  {
     title: "Tricep Kickback",
     difficulty: "Easy",
     exhibition_date: "December 24, 2020",
     gallery_id: 4,
-    filename: "tricep-kickback.jpg",
+    filename: "tricep-kickback.png",
     motion_file: "tricep-kickback.gif",
     description:
       "Tricep kickbacks are an isolation exercise primarily targets the triceps brachii, the muscles on the back of the upper arm.",
@@ -256,7 +316,7 @@ const paintingdata = [
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
     gallery_id: 4,
-    filename: "barbell-curl.jpg",
+    filename: "barbell-curl.png",
     motion_file: "barbell-curl.gif",
     description:
       "The barbell curl primarily targets the biceps brachii, the muscles on the front of the upper arm.",
@@ -266,7 +326,7 @@ const paintingdata = [
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
     gallery_id: 4,
-    filename: "hammer-curl.jpg",
+    filename: "hammer-curl.png",
     motion_file: "hammer-curl.gif",
     description:
       "The hammer curl is an arm exercise where you hold dumbbells with a neutral grip primarily targets the brachialis and brachioradialis muscles of the forearms, as well as the biceps.",
