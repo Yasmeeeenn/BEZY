@@ -1,6 +1,6 @@
-const { Painting } = require("../models");
+const { Exercise } = require("../models");
 
-const paintingdata = [
+const exerciseData = [
   {
     title: "Barbell Bench Press",
     difficulty: "Hard",
@@ -263,6 +263,6 @@ const paintingdata = [
   },
 ];
 
-const seedPaintings = () => Painting.bulkCreate(paintingdata);
+const seedExercises = () => Exercise.bulkCreate(exerciseData);
 
-module.exports = seedPaintings;
+module.exports = seedExercises;
