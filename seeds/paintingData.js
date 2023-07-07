@@ -12,6 +12,16 @@ const paintingdata = [
       "The bench press is a classic strength training exercise targeting the muscles of your chest, shoulders, and triceps to build upper body strength and muscle mass.",
   },
   {
+    title: "Svend Press",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    gallery_id: 1,
+    filename: "svend-press.png",
+    motion_file: "svend-press.gif",
+    description:
+      "The Svend press is an exercise where you hold two plates together in front of your chest and press them outward, engaging the chest and shoulder muscles while promoting muscular endurance and stability in the upper body.",
+  },
+  {
     title: "Cable Crossover",
     difficulty: "Easy",
     exhibition_date: "July 4, 2020",
@@ -82,16 +92,6 @@ const paintingdata = [
       "Dumbbell flys are an exercise where you lie on a bench and, with a dumbbell in each hand, bring your arms out to the sides in a wide arc motion, targeting the chest muscles.",
   },
   {
-    title: "Dumbbell Pull-Over",
-    difficulty: "Moderate",
-    exhibition_date: "July 4, 2020",
-    gallery_id: 1,
-    filename: "dumbbell-pullover.jpg",
-    motion_file: "dumbbell-pullover.gif",
-    description:
-      "Dumbbell pull-overs are an exercise where you lie on a bench, hold a dumbbell above your chest, and lower it behind your head in a controlled motion, engaging the chest, back, and shoulder muscles.",
-  },
-  {
     title: "Front Raise",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
@@ -136,17 +136,77 @@ const paintingdata = [
     difficulty: "Hard",
     exhibition_date: "June 10, 2019",
     gallery_id: 2,
-    filename: "straight-leg-deadlift.jpg",
+    filename: "straight-leg-deadlift.png",
     motion_file: "straight-leg-deadlift.gif",
     description:
       "The straight leg deadlift is a strength training exercise primarily targeting the hamstrings and glutes while also engaging the lower back and core for stability.",
   },
   {
-    title: "Pull-ups",
+    title: "Jump Squats",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    gallery_id: 2,
+    filename: "jump-squats.jpg",
+    motion_file: "jump-squats.gif",
+    description:
+      "Jump squats are a plyometric exercise where you perform a squat and explosively jump up, engaging the lower body muscles while improving power and cardiovascular fitness.",
+  },
+  {
+    title: "Lunge Step-Up",
+    difficulty: "Hard",
+    exhibition_date: "June 10, 2019",
+    gallery_id: 2,
+    filename: "lunge-step-up.png",
+    motion_file: "lunge-step-up.gif",
+    description:
+      "Lunge step-ups are a compound exercise where you step onto an elevated platform with one foot, then drive the opposite knee up towards the chest, targeting the leg muscles and improving balance and stability.",
+  },
+  {
+    title: "Pistol Squat",
+    difficulty: "Hard",
+    exhibition_date: "June 10, 2019",
+    gallery_id: 2,
+    filename: "pistol-squat.jpg",
+    motion_file: "pistol-squat.gif",
+    description:
+      "Pistol squats are a challenging single-leg exercise where you balance on one leg while squatting down to a deep position, effectively targeting the leg muscles and enhancing strength, stability, and mobility.",
+  },
+  {
+    title: "Split Squat",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    gallery_id: 2,
+    filename: "split-squat.jpg",
+    motion_file: "split-squat.gif",
+    description:
+      "Split squats, also known as static lunges, are a lower body exercise where one foot is positioned forward and the other foot is positioned back, targeting the quadriceps, glutes, and hamstrings while improving balance and stability.",
+  },
+  {
+    title: "Sumo Squat",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    gallery_id: 2,
+    filename: "sumo-squat.jpg",
+    motion_file: "sumo-squat.gif",
+    description:
+      "Sumo squats are a variation of the squat exercise where you stand with your feet wider than hip-width apart, toes pointed outward, and perform a squat, targeting the inner thighs, glutes, and quadriceps while enhancing lower body strength and stability.",
+  },
+    {
+    title: "Glute Bridge",
+    difficulty: "Easy",
+    exhibition_date: "June 10, 2019",
+    gallery_id: 2,
+    filename: "glute-bridges.png",
+    motion_file: "glute-bridges.gif",
+    description:
+      "Glute bridges are a exercise where you lie on your back, bend your knees, and lift your hips off the ground, engaging and strengthening the gluteal muscles.",
+  },
+  {
+    title: "Pull-Ups",
     difficulty: "Hard",
     exhibition_date: "November 3, 2016",
     gallery_id: 3,
-    filename: "pull-up.jpg",
+    filename: "pull-up.png",
     motion_file: "pull-up.gif",
     description:
       "Pull-ups are a challenging upper body exercise targeting the muscles of the back, arms, and shoulders. ",
@@ -156,27 +216,27 @@ const paintingdata = [
     difficulty: "Hard",
     exhibition_date: "November 3, 2016",
     gallery_id: 3,
-    filename: "lat-pulldown.jpg",
+    filename: "lat-pulldown.png",
     motion_file: "lat-pulldown.gif",
     description:
       "The lat pulldown is a popular strength training exercise engaging the muscles of your upper back and arms.",
   },
   {
-    title: "Bent over row",
+    title: "Bent Over Row",
     difficulty: "Moderate",
     exhibition_date: "November 3, 2016",
     gallery_id: 3,
-    filename: "bent-over-row.jpg",
+    filename: "bent-over-row.png",
     motion_file: "bent-over-row.gif",
     description:
       "The bent over row is a compound exercise primarily targets the muscles of the back, including the latissimus dorsi (lats), rhomboids, and traps.",
   },
   {
-    title: "Underhand Chin-ups",
+    title: "Underhand Chin-Ups",
     difficulty: "Moderate",
     exhibition_date: "November 3, 2016",
     gallery_id: 3,
-    filename: "underhand-chin-up.jpg",
+    filename: "underhand-chin-up.png",
     motion_file: "underhand-chin-up.gif",
     description:
       "The underhand chin-up is a variation of the traditional chin-up exercise targeting the muscles of the back, biceps, and shoulders.",
