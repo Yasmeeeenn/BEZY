@@ -55,6 +55,13 @@ router.get('/gallery/:id', async (req, res) => {
   }
 });
 
+router.get('/about', (req, res) => {
+res.render('about')
+});
+
+router.get('/contact', (req, res) => {
+  res.render('contact')
+  });
 // GET one painting
 router.get('/painting/:id', async (req, res) => {
   try {
