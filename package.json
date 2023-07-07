@@ -11,22 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
-    "all": "^0.0.0",
-    "bcrypt": "^5.0.0",
-    "connect-session-sequelize": "^7.0.4",
-=======
     "bcrypt": "^4.0.0",
->>>>>>> 2e34fc5a975f076260b7a8afed247266908bc68d
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "express-session": "^1.17.1",
-<<<<<<< HEAD
-    "fund": "^1.0.0",
-=======
     "handlebars": "^4.7.6",
->>>>>>> 2e34fc5a975f076260b7a8afed247266908bc68d
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
   }
