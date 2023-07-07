@@ -1,6 +1,6 @@
-const { Gallery } = require("../models");
+const { MuscleGroup } = require("../models");
 
-const gallerydata = [
+const muscleGroupData = [
   {
     name: "Chest",
     starting_date: "April 20, 2021 07:00:00",
@@ -34,6 +34,6 @@ const gallerydata = [
   },
 ];
 
-const seedGallery = () => Gallery.bulkCreate(gallerydata);
+const seedMuscleGroups = () => MuscleGroup.bulkCreate(muscleGroupData);
 
-module.exports = seedGallery;
+module.exports = seedMuscleGroups;
