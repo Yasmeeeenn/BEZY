@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Gallery extends Model {}
+class Exercise extends Model {}
 
-Gallery.init(
+Exercise.init(
   {
     id: {
       type: DataTypes.INTEGER,
@@ -11,30 +11,44 @@ Gallery.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    title: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    starting_date: {
-      type: DataTypes.DATE,
+    difficulty: {
+      type: DataTypes.STRING,
       allowNull: false,
     },
-    ending_date: {
+    exhibition_date: {
       type: DataTypes.DATE,
       allowNull: false,
     },
     filename: {
       type: DataTypes.STRING,
       allowNull: false,
-      
+    },
+    motion_file: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    description: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    muscleGroup_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'muscleGroup',
+        key: 'id',
+      },
     },
   },
   {
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'gallery',
+    modelName: 'exercise',
   }
 );
 
-module.exports = Gallery;
+module.exports = Exercise;
