@@ -32,14 +32,14 @@ const exerciseData = [
       "The cable crossover primarily targets the muscles of the chest, shoulders, and arms.",
   },
   {
-    title: "Dips",
+    title: "Chest Dips",
     difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "chest-dips.jpg",
-    motion_file: "dips.gif",
+    motion_file: "chest-dips.gif",
     description:
-      "Dips target the muscles of the chest, shoulders, triceps, and core",
+      "Chest dips are a bodyweight exercise where you suspend yourself on parallel bars, lowering your body down and then pushing up, primarily targeting the chest, triceps, and shoulders while improving upper body strength and muscular development.",
   },
   {
     title: "Decline Cable Fly",
@@ -322,6 +322,16 @@ const exerciseData = [
       "The barbell curl primarily targets the biceps brachii, the muscles on the front of the upper arm.",
   },
   {
+    title: "Shoulder Press",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "shoulder-press.jpg",
+    motion_file: "shoulder-press.gif",
+    description:
+      "The shoulder press, also referred to as the military press, is an exercise where you press a weight overhead from shoulder level, targeting the deltoid muscles and enhancing upper body strength, stability, and shoulder mobility.",
+  },
+  {
     title: "Hammer Curl",
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
@@ -332,7 +342,7 @@ const exerciseData = [
       "The hammer curl is an arm exercise where you hold dumbbells with a neutral grip primarily targets the brachialis and brachioradialis muscles of the forearms, as well as the biceps.",
   },
   {
-    title: "Tricep Push-down",
+    title: "Tricep Push-Down",
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 4,
@@ -340,6 +350,56 @@ const exerciseData = [
     motion_file: "cable-tricep.gif",
     description:
       "The tricep pushdown is an isolation exercise primarily targets the triceps brachii, the muscles on the back of the upper arm. ",
+  },
+  {
+    title: "Concentration Curls",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "concentration-curls.png",
+    motion_file: "concentration-curls.gif",
+    description:
+      "Concentration curls are a bicep exercise performed while seated, where you curl a dumbbell with one arm while keeping the elbow resting against the inner thigh, effectively isolating and targeting the biceps for enhanced strength and definition.",
+  },
+  {
+    title: "Incline Bicep Curls",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "incline-bicep-curl.jpg",
+    motion_file: "incline-bicep-curl.gif",
+    description:
+      "Incline bicep curls are a variation of the bicep curl exercise where you sit on an incline bench and perform curls, targeting the biceps muscles from a different angle to enhance muscle development and strength in the upper arms.",
+  },
+  {
+    title: "Lateral Raise",
+    difficulty: "Difficult",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "lateral-raise.jpg",
+    motion_file: "lateral-raise.gif",
+    description:
+      "Lateral raises are a shoulder exercise where you hold dumbbells by your sides and lift them out to the sides, parallel to the ground, targeting the deltoid muscles and improving shoulder strength and definition.",
+  },
+  {
+    title: "Dips",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 4,
+    filename: "dips.png",
+    motion_file: "dips.gif",
+    description:
+      "Bench dips are a bodyweight exercise performed with your hands on a bench behind you, lowering your body by bending your arms, and then pushing back up, primarily targeting the triceps while improving upper body strength and tone.",
+  },
+    {
+    title: "Overhead Press",
+    difficulty: "Difficult",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "overhead-press.jpg",
+    motion_file: "overhead-press.gif",
+    description:
+      "The overhead press, also known as the shoulder press, is an exercise where you push a weight upward from shoulder level to an overhead position, primarily targeting the deltoid muscles while improving upper body strength and stability.",
   },
   {
     title: "Decline Crunch",
