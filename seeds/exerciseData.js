@@ -376,7 +376,7 @@ const exerciseData = [
     difficulty: "Difficult",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 4,
-    filename: "lateral-raise.jpg",
+    filename: "lateral-raise.png",
     motion_file: "lateral-raise.gif",
     description:
       "Lateral raises are a shoulder exercise where you hold dumbbells by your sides and lift them out to the sides, parallel to the ground, targeting the deltoid muscles and improving shoulder strength and definition.",
@@ -406,7 +406,7 @@ const exerciseData = [
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 5,
-    filename: "decline-crunch.jpg",
+    filename: "decline-crunch.png",
     motion_file: "decline-crunch.gif",
     description:
       "The decline crunch is an abdominal exercise performed on a decline bench.This exercise primarily targets the rectus abdominis.",
@@ -416,7 +416,7 @@ const exerciseData = [
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 5,
-    filename: "sit-up.jpg",
+    filename: "sit-up.png",
     motion_file: "sit-up.gif",
     description:
       "Sit-ups are an abdominal exercise where you start by lying on your back with knees bent primarily targeting the rectus abdominis",
@@ -426,7 +426,7 @@ const exerciseData = [
     difficulty: "Moderate",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 5,
-    filename: "leg-lifts.jpg",
+    filename: "leg-lifts.png",
     motion_file: "leg-lifts.gif",
     description:
       "Leg lifts are a core exercise primarily targeting the lower abdominal muscles, including the rectus abdominis and the hip flexors. ",
@@ -436,10 +436,80 @@ const exerciseData = [
     difficulty: "Hard",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 5,
-    filename: "ab-wheel.jpg",
+    filename: "ab-wheel.png",
     motion_file: "ab-wheel.gif",
     description:
       "This exercise primarily targets the core muscles, including the rectus abdominis, obliques, and transverse abdominis.",
+  },
+  {
+    title: "Air Bike",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 5,
+    filename: "air-bike.jpg",
+    motion_file: "air-bike.gif",
+    description:
+      "The air bike exercise is a core and cardiovascular exercise where you lie on your back, pedal your legs in a cycling motion, and perform alternating elbow-to-knee crunches, engaging the abdominal muscles and promoting calorie burning and core strength.",
+  },
+  {
+    title: "Bird Dog",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 5,
+    filename: "bird-dog.jpg",
+    motion_file: "bird-dog.gif",
+    description:
+      "The bird dog exercise is a core-strengthening exercise where you start on your hands and knees, extending one arm forward and the opposite leg backward while maintaining a stable spine, targeting the core muscles and promoting stability and balance.",
+  },
+  {
+    title: "Dead Bug",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 5,
+    filename: "dead-bug.jpg",
+    motion_file: "dead-bug.gif",
+    description:
+      "The dead bug exercise is a core exercise where you lie on your back, extend your arms and legs towards the ceiling, and then lower opposite limbs while maintaining a stable core, engaging the abdominal muscles and promoting core stability and control.",
+  },
+  {
+    title: "Flutter Kicks",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 5,
+    filename: "flutter-kicks.jpg",
+    motion_file: "flutter-kicks.gif",
+    description:
+      "Flutter kicks are a core exercise performed by lying on your back, lifting your legs off the ground, and making small, rapid up and down kicks, targeting the lower abdominal muscles and hip flexors while improving core strength and endurance.",
+  },
+  {
+    title: "Half Wipers",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 5,
+    filename: "half-wipers.jpg",
+    motion_file: "half-wipers.gif",
+    description:
+      "Wipers are an advanced core exercise where you lie on your back, lift your legs up, and move them from side to side in a controlled motion, engaging the oblique muscles and promoting core stability and rotational strength.",
+  },
+  {
+    title: "Oblique Crunches",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 5,
+    filename: "oblique-crunches.png",
+    motion_file: "oblique-crunches.gif",
+    description:
+      "Oblique crunches are a core exercise where you lie on your back, cross one ankle over the opposite knee, and crunch upwards, aiming to bring the opposite elbow towards the knee, targeting the oblique muscles.",
+  },
+  {
+    title: "Russian Twist",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 5,
+    filename: "russian-twist.jpg",
+    motion_file: "russian-twist.gif",
+    description:
+      "Russian twists are a core exercise where you sit on the floor, lean back slightly, and rotate your torso from side to side, engaging the abdominal muscles and obliques while improving core stability and rotational strength.",
   },
 ];
 
