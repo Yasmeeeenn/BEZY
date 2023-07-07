@@ -2,30 +2,29 @@ const { Painting } = require("../models");
 
 const paintingdata = [
   {
-    title: "Incline Bench Press",
+    title: "Barbell Bench Press",
     difficulty: "Hard",
-    exhibition_date: "March 30, 2018",
+    exhibition_date: "July 4, 2020",
     gallery_id: 1,
-    filename: "chest-press.jpg",
-    motion_file: "Barbellbench-Press.gif",
+    filename: "barbell-bench-press.png",
+    motion_file: "barbell-bench-press.gif",
     description:
       "The bench press is a classic strength training exercise targeting the muscles of your chest, shoulders, and triceps to build upper body strength and muscle mass.",
   },
   {
     title: "Cable Crossover",
     difficulty: "Easy",
-    exhibition_date: "May 05, 2017",
+    exhibition_date: "July 4, 2020",
     gallery_id: 1,
-    filename: "cable-crossover.jpg",
+    filename: "cable-crossover.png",
     motion_file: "cable-crossover.gif",
     description:
       "The cable crossover primarily targets the muscles of the chest, shoulders, and arms.",
   },
-
   {
     title: "Dips",
     difficulty: "Moderate",
-    exhibition_date: "May 05, 2017",
+    exhibition_date: "July 4, 2020",
     gallery_id: 1,
     filename: "chest-dips.jpg",
     motion_file: "dips.gif",
@@ -35,12 +34,72 @@ const paintingdata = [
   {
     title: "Decline Cable Fly",
     difficulty: "Hard",
-    exhibition_date: "March 30, 2018",
+    exhibition_date: "July 4, 2020",
     gallery_id: 1,
     filename: "decline-cable-fly.jpg",
     motion_file: "decline-cable-fly.gif",
     description:
       "The decline cable fly is a resistance exercise targeting the muscles of the lower chest and shoulders.",
+  },
+  {
+    title: "Chest Press",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    gallery_id: 1,
+    filename: "chest-press.png",
+    motion_file: "chest-press.gif",
+    description:
+      "The chest press is a popular and effective exercise that primarily targets the muscles of the chest, including the pectoralis major and pectoralis minor.",
+  },
+  {
+    title: "Decline Push-Ups",
+    difficulty: "Hard",
+    exhibition_date: "July 4, 2020",
+    gallery_id: 1,
+    filename: "decline-pushup.png",
+    motion_file: "decline-pushup.gif",
+    description:
+      "Decline pushups are a variation of the classic pushup exercise where the feet are elevated on an elevated surface, placing additional emphasis on the upper chest, shoulders, and triceps.",
+  },
+  {
+    title: "Dips",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    gallery_id: 1,
+    filename: "dips.png",
+    motion_file: "dips.gif",
+    description:
+      "Bench dips are a bodyweight exercise where you lower and raise your body using a bench or elevated surface, primarily targeting the triceps and chest muscles.",
+  },
+  {
+    title: "Dumbbell Fly",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    gallery_id: 1,
+    filename: "dumbbell-fly.png",
+    motion_file: "dumbbell-fly.gif",
+    description:
+      "Dumbbell flys are an exercise where you lie on a bench and, with a dumbbell in each hand, bring your arms out to the sides in a wide arc motion, targeting the chest muscles.",
+  },
+  {
+    title: "Dumbbell Pull-Over",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    gallery_id: 1,
+    filename: "dumbbell-pullover.jpg",
+    motion_file: "dumbbell-pullover.gif",
+    description:
+      "Dumbbell pull-overs are an exercise where you lie on a bench, hold a dumbbell above your chest, and lower it behind your head in a controlled motion, engaging the chest, back, and shoulder muscles.",
+  },
+  {
+    title: "Front Raise",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    gallery_id: 1,
+    filename: "front-raise.png",
+    motion_file: "front-raise.gif",
+    description:
+      "A weighted front raise is an exercise where you hold a weight in front of your body and lift it up to shoulder level, primarily targeting the front deltoid muscles.",
   },
   {
     title: "Squats",
