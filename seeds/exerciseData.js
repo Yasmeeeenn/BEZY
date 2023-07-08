@@ -102,11 +102,41 @@ const exerciseData = [
       "A weighted front raise is an exercise where you hold a weight in front of your body and lift it up to shoulder level, primarily targeting the front deltoid muscles.",
   },
   {
+    title: "Bosu Ball Push-Ups",
+    difficulty: "Hard",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 1,
+    filename: "bosu-ball-push-up.png",
+    motion_file: "bosu-ball-push-up.gif",
+    description:
+      "Bosu ball pushups are a variation of pushups performed with the hands on a Bosu ball, challenging stability and engaging core muscles.",
+  },
+  {
+    title: "Pec Fly Machine",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 1,
+    filename: "pec-fly-machine.png",
+    motion_file: "pec-fly-machine.gif",
+    description:
+      "The pec fly machine is a gym equipment that targets the chest muscles by simulating a fly motion, providing resistance and isolation for an effective chest workout.",
+  },
+  {
+    title: "Wide Arm Push-Ups",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 1,
+    filename: "wide-arm-push-ups.png",
+    motion_file: "wide-arm-push-ups.gif",
+    description:
+      "Wide arm pushups are a variation of pushups where the hands are placed wider than shoulder-width apart, targeting the chest, shoulders, and triceps with an emphasis on shoulder stability.",
+  },
+  {
     title: "Squats",
     difficulty: "Hard",
     exhibition_date: "June 10, 2019",
     muscleGroup_id: 2,
-    filename: "squat.jpg",
+    filename: "squat.png",
     motion_file: "squat.gif",
     description:
       "Squats are a compound exercise that targets the lower body muscles by bending at the knees and hips.",
