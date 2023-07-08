@@ -511,16 +511,7 @@ const exerciseData = [
     description:
       "Incline bicep curls are a variation of the bicep curl exercise where you sit on an incline bench and perform curls, targeting the biceps muscles from a different angle to enhance muscle development and strength in the upper arms.",
   },
-  {
-    title: "Lateral Raise",
-    difficulty: "Difficult",
-    exhibition_date: "January 20, 2018",
-    muscleGroup_id: 4,
-    filename: "lateral-raise.png",
-    motion_file: "lateral-raise.gif",
-    description:
-      "Lateral raises are a shoulder exercise where you hold dumbbells by your sides and lift them out to the sides, parallel to the ground, targeting the deltoid muscles and improving shoulder strength and definition.",
-  },
+  
   {
     title: "Dips",
     difficulty: "Moderate",
@@ -650,6 +641,106 @@ const exerciseData = [
     motion_file: "russian-twist.gif",
     description:
       "Russian twists are a core exercise where you sit on the floor, lean back slightly, and rotate your torso from side to side, engaging the abdominal muscles and obliques while improving core stability and rotational strength.",
+  },
+  {
+    title: "Shoulder Press",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "shoulder-press.jpg",
+    motion_file: "shoulder-press.gif",
+    description:
+      "The shoulder press, also referred to as the military press, is an exercise where you press a weight overhead from shoulder level, targeting the deltoid muscles and enhancing upper body strength, stability, and shoulder mobility.",
+  },
+  {
+    title: "Lateral Raise",
+    difficulty: "Difficult",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "lateral-raise.png",
+    motion_file: "lateral-raise.gif",
+    description:
+      "Lateral raises are a shoulder exercise where you hold dumbbells by your sides and lift them out to the sides, parallel to the ground, targeting the deltoid muscles and improving shoulder strength and definition.",
+  },
+  {
+    title: "Barbell Upright Rows",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "barbell-uprightrow.png",
+    motion_file: "barbell-uprightrow.gif",
+    description:
+      "Barbell upright rows are a shoulder exercise where a barbell is lifted in front of the body, focusing on the muscles of the shoulders, primarily the deltoids and upper traps, to improve shoulder strength and stability.",
+  },
+  {
+    title: "Battle Ropes",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "battle-ropes.png",
+    motion_file: "battle-ropes.gif",
+    description:
+      "Battle ropes exercises involve swinging, slamming, or waving long ropes in various patterns, providing a high-intensity full-body workout that targets the upper body, core, and cardiovascular system for improved strength, endurance, and calorie burn.",
+  },
+  {
+    title: "Bent Over Lateral Raise",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "bent-over-lateral-raises.png",
+    motion_file: "bent-over-lateral-raises.gif",
+    description:
+      "Bent over lateral raises are a shoulder exercise where the body is bent forward at the hips, and the arms are lifted to the sides, targeting the lateral deltoids for improved shoulder strength and definition.",
+  },
+  {
+    title: "Dumbbell Front Raise",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "dumbbell-front-raises.png",
+    motion_file: "dumbbell-front-raises.gif",
+    description:
+      "Dumbbell front raises are a shoulder exercise where the dumbbells are lifted in front of the body, targeting the front deltoids for improved shoulder strength and definition.",
+  },
+  {
+    title: "Cable One Arm Lateral Raise",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "cable-one-arm-lateral-raise.png",
+    motion_file: "cable-one-arm-lateral-raise.gif",
+    description:
+      "Cable one-arm lateral raises are a shoulder exercise performed with a cable machine, where the arm is lifted to the side against resistance, targeting the medial deltoid for improved shoulder strength and definition.",
+  },
+  {
+    title: "Dumbbell Shrugs",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "dumbbell-shrugs.png",
+    motion_file: "dumbbell-shrugs.gif",
+    description:
+      "Dumbbell shrugs are a trap exercise where dumbbells are lifted with the shoulders, targeting the trapezius muscles for improved upper back and neck strength and stability.",
+  },
+  {
+    title: "Plate Front Raise",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "plate-front-raises.png",
+    motion_file: "plate-front-raises.gif",
+    description:
+      "Plate front raises are a shoulder exercise where a weight plate is held with both hands and lifted in front of the body, targeting the front deltoids for improved shoulder strength and definition.",
+  },
+  {
+    title: "Handstand Push-Ups",
+    difficulty: "Difficult",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "handstand-pushup.png",
+    motion_file: "handstand-pushup.gif",
+    description:
+      "Handstand pushups are a challenging bodyweight exercise where the body is inverted in a handstand position, and the arms are used to lower and lift the body, primarily targeting the shoulders and triceps for upper body strength and stability.",
   },
 ];
 

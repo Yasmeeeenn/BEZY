@@ -31,6 +31,12 @@ const muscleGroupData = [
     starting_date: "December 22, 2020 11:00:00",
     ending_date: "March 19, 2021 19:00:00",
     filename: "core-gallery.jpg",
+  },  
+  {
+    name: "Shoulders",
+    starting_date: "December 22, 2020 11:00:00",
+    ending_date: "March 19, 2021 19:00:00",
+    filename: "shoulder-gallery.png",
   },
 ];
 
