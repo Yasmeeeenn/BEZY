@@ -352,14 +352,14 @@ const exerciseData = [
       "The underhand chin-up is a variation of the traditional chin-up exercise targeting the muscles of the back, biceps, and shoulders.",
   },
   {
-    title: "Dumbbell Row",
+    title: "Incline Dumbbell Row",
     difficulty: "Moderate",
     exhibition_date: "November 3, 2016",
     muscleGroup_id: 3,
     filename: "dumbbell-row.png",
     motion_file: "dumbbell-row.gif",
     description:
-      "Dumbbell rows are a compound exercise where you bend forward, support your body with one hand on a bench, and pull a dumbbell up to your side, targeting the back muscles, particularly the lats and rhomboids.",
+      "Incline dumbbell rows are a back exercise performed on an incline bench, where the dumbbells are rowed towards the chest, targeting the muscles of the upper back, including the rhomboids, rear deltoids, and latissimus dorsi.",
   },
   {
     title: "Hyperextensions",
@@ -410,6 +410,36 @@ const exerciseData = [
     motion_file: "dumbbell-pullover.gif",
     description:
       "Dumbbell pull-overs are an exercise where you lie on a bench, hold a dumbbell above your chest, and lower it behind your head in a controlled motion, engaging the chest, back, and shoulder muscles.",
+  },
+  {
+    title: "Seated Cable Row",
+    difficulty: "Easy",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 3,
+    filename: "cable-seated-row.png",
+    motion_file: "cable-seated-row.gif",
+    description:
+      "Seated cable rows are a back exercise performed on a cable machine, where a seated position and a cable handle are used to pull the weight towards the torso, engaging the muscles of the upper back.",
+  },
+  {
+    title: "One Arm Shotgun Row",
+    difficulty: "Easy",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 3,
+    filename: "shotgun-row.png",
+    motion_file: "shotgun-row.gif",
+    description:
+      "Standing one-arm shotgun row is a back exercise performed while standing, using a handle attachment on a cable machine to pull the weight towards the torso in a rowing motion, targeting the muscles of the upper back.",
+  },
+  {
+    title: "Cable Row Lat Pushdown",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 3,
+    filename: "cable-row-lat-pushdown.png",
+    motion_file: "cable-row-lat-pushdown.gif",
+    description:
+      "Cable row lat pushdown, also known as the lat pulldown, is an exercise where a cable machine is used to pull a bar down towards the chest, primarily targeting the latissimus dorsi muscles for upper back and arm strength.",
   },
   {
     title: "Tricep Kickback",
