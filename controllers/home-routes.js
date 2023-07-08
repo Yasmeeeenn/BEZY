@@ -63,7 +63,11 @@ res.render('about')
 router.get('/contact', (req, res) => {
   res.render('contact')
   });
-// GET one painting
+
+router.get('/printables', (req, res) => {
+  res.render('printables')
+  });
+
 router.get('/exercise/:id', async (req, res) => {
   try {
     const dbExerciseData = await Exercise.findByPk(req.params.id);
