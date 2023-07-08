@@ -106,8 +106,8 @@ const exerciseData = [
     difficulty: "Hard",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
-    filename: "bosu-ball-push-up.png",
-    motion_file: "bosu-ball-push-up.gif",
+    filename: "bosu-ball-push-ups.png",
+    motion_file: "bosu-ball-push-ups.gif",
     description:
       "Bosu ball pushups are a variation of pushups performed with the hands on a Bosu ball, challenging stability and engaging core muscles.",
   },
@@ -221,7 +221,7 @@ const exerciseData = [
     description:
       "Sumo squats are a variation of the squat exercise where you stand with your feet wider than hip-width apart, toes pointed outward, and perform a squat, targeting the inner thighs, glutes, and quadriceps while enhancing lower body strength and stability.",
   },
-    {
+  {
     title: "Glute Bridge",
     difficulty: "Easy",
     exhibition_date: "June 10, 2019",
@@ -230,6 +230,86 @@ const exerciseData = [
     motion_file: "glute-bridges.gif",
     description:
       "Glute bridges are a exercise where you lie on your back, bend your knees, and lift your hips off the ground, engaging and strengthening the gluteal muscles.",
+  },
+  {
+    title: "Barbell Front Squat",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "barbell-front-squat.png",
+    motion_file: "barbell-front-squat.gif",
+    description:
+      "The barbell front squat is an exercise where the barbell is placed in front of the body on the front shoulders, challenging the lower body muscles, particularly the quadriceps, while also engaging the core and upper back for stability.",
+  },
+  {
+    title: "Machine Leg Press",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "leg-press-machine.png",
+    motion_file: "leg-press-machine.gif",
+    description:
+      "The machine leg press is a gym equipment that targets the lower body, particularly the quadriceps, hamstrings, and glutes, by simulating the motion of pushing a weighted platform with the legs.",
+  },
+  {
+    title: "Machine Leg Extension",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "leg-extension-machine.png",
+    motion_file: "leg-extension-machine.gif",
+    description:
+      "The machine leg extension is a gym equipment that specifically targets the quadriceps muscles by allowing you to extend your legs against resistance in a seated position.",
+  },
+  {
+    title: "Barbell Overhead Squat",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "barbell-overhead-squat.png",
+    motion_file: "barbell-overhead-squat.gif",
+    description:
+      "The barbell overhead squat is an advanced exercise where a barbell is held overhead while performing a full squat, challenging the entire body's strength, mobility, and stability.",
+  },
+  {
+    title: "Mountain Climbers",
+    difficulty: "Easy",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "mountain-climbers.png",
+    motion_file: "mountain-climbers.gif",
+    description:
+      "Mountain climbers are a dynamic exercise that involves alternating leg movements, resembling climbing a mountain, and they engage the core, arms, and legs for a challenging cardiovascular and full-body workout.",
+  },
+  {
+    title: "Barbell Hip Thrusts",
+    difficulty: "Easy",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "barbell-hip-thrusts.png",
+    motion_file: "barbell-hip-thrusts.gif",
+    description:
+      "Barbell hip thrusts are a lower body exercise where the barbell is placed across the hips and thrusting the hips upward, activating and strengthening the glutes and hamstrings for improved hip extension and overall lower body strength.",
+  },
+  {
+    title: "Goblet Squats",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "goblet-squats.png",
+    motion_file: "goblet-squats.gif",
+    description:
+      "Barbell hip thrusts are a highly effective exercise for targeting and strengthening the glutes, involving a horizontal movement pattern where the barbell rests on the hips and the hips are lifted off the ground.",
+  },
+  {
+    title: "Lying Hamstring Curl",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "lying-hamstring-curl.png",
+    motion_file: "lying-hamstring-curl.gif",
+    description:
+      "Lying hamstring curls are a leg exercise performed lying face down on a machine, where the ankles are hooked under a padded lever and the legs are flexed against resistance to target and strengthen the hamstring muscles.",
   },
   {
     title: "Pull-Ups",
