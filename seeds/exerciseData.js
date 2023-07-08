@@ -3,7 +3,7 @@ const { Exercise } = require("../models");
 const exerciseData = [
   {
     title: "Barbell Bench Press",
-    difficulty: "Hard",
+    difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "barbell-bench-press.png",
@@ -23,7 +23,7 @@ const exerciseData = [
   },
   {
     title: "Cable Crossover",
-    difficulty: "Easy",
+    difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "cable-crossover.png",
@@ -33,7 +33,7 @@ const exerciseData = [
   },
   {
     title: "Chest Dips",
-    difficulty: "Moderate",
+    difficulty: "Hard",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "chest-dips.jpg",
@@ -43,7 +43,7 @@ const exerciseData = [
   },
   {
     title: "Decline Cable Fly",
-    difficulty: "Hard",
+    difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "decline-cable-fly.jpg",
@@ -153,7 +153,7 @@ const exerciseData = [
   },
   {
     title: "Lunge Step-Up",
-    difficulty: "Hard",
+    difficulty: "Moderate",
     exhibition_date: "June 10, 2019",
     muscleGroup_id: 2,
     filename: "lunge-step-up.png",
@@ -172,14 +172,14 @@ const exerciseData = [
       "Pistol squats are a challenging single-leg exercise where you balance on one leg while squatting down to a deep position, effectively targeting the leg muscles and enhancing strength, stability, and mobility.",
   },
   {
-    title: "Split Squat",
+    title: "Bulgarian Split Squat",
     difficulty: "Moderate",
     exhibition_date: "June 10, 2019",
     muscleGroup_id: 2,
     filename: "split-squat.jpg",
     motion_file: "split-squat.gif",
     description:
-      "Split squats, also known as static lunges, are a lower body exercise where one foot is positioned forward and the other foot is positioned back, targeting the quadriceps, glutes, and hamstrings while improving balance and stability.",
+      "Bulgarian split squats are a single-leg exercise where you place the back foot on an elevated surface and perform a deep lunge motion, targeting the leg muscles, particularly the quadriceps and glutes, while improving balance and lower body strength.",
   },
   {
     title: "Sumo Squat",
@@ -203,7 +203,7 @@ const exerciseData = [
   },
   {
     title: "Pull-Ups",
-    difficulty: "Hard",
+    difficulty: "Moderate",
     exhibition_date: "November 3, 2016",
     muscleGroup_id: 3,
     filename: "pull-up.png",
@@ -233,7 +233,7 @@ const exerciseData = [
   },
   {
     title: "Underhand Chin-Ups",
-    difficulty: "Moderate",
+    difficulty: "Hard",
     exhibition_date: "November 3, 2016",
     muscleGroup_id: 3,
     filename: "underhand-chin-up.png",
@@ -313,7 +313,7 @@ const exerciseData = [
   },
   {
     title: "Barbell Curl",
-    difficulty: "Easy",
+    difficulty: "Moderate",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 4,
     filename: "barbell-curl.png",
@@ -392,14 +392,14 @@ const exerciseData = [
       "Bench dips are a bodyweight exercise performed with your hands on a bench behind you, lowering your body by bending your arms, and then pushing back up, primarily targeting the triceps while improving upper body strength and tone.",
   },
     {
-    title: "Overhead Press",
+    title: "Supinated Overhead Press",
     difficulty: "Difficult",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 4,
     filename: "overhead-press.jpg",
     motion_file: "overhead-press.gif",
     description:
-      "The overhead press, also known as the shoulder press, is an exercise where you push a weight upward from shoulder level to an overhead position, primarily targeting the deltoid muscles while improving upper body strength and stability.",
+      "Supinated overhead press, also known as the Arnold press, is an exercise where you perform an overhead press while starting with a supinated (palms facing towards you) grip and rotating the dumbbells as you press up.",
   },
   {
     title: "Decline Crunch",
@@ -463,7 +463,7 @@ const exerciseData = [
   },
   {
     title: "Dead Bug",
-    difficulty: "Easy",
+    difficulty: "Moderate",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 5,
     filename: "dead-bug.jpg",
