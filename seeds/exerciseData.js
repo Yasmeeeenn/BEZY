@@ -462,16 +462,6 @@ const exerciseData = [
       "The barbell curl primarily targets the biceps brachii, the muscles on the front of the upper arm.",
   },
   {
-    title: "Shoulder Press",
-    difficulty: "Moderate",
-    exhibition_date: "January 20, 2018",
-    muscleGroup_id: 4,
-    filename: "shoulder-press.jpg",
-    motion_file: "shoulder-press.gif",
-    description:
-      "The shoulder press, also referred to as the military press, is an exercise where you press a weight overhead from shoulder level, targeting the deltoid muscles and enhancing upper body strength, stability, and shoulder mobility.",
-  },
-  {
     title: "Hammer Curl",
     difficulty: "Easy",
     exhibition_date: "January 20, 2018",
@@ -522,7 +512,47 @@ const exerciseData = [
     description:
       "Bench dips are a bodyweight exercise performed with your hands on a bench behind you, lowering your body by bending your arms, and then pushing back up, primarily targeting the triceps while improving upper body strength and tone.",
   },
-    {
+  {
+    title: "Barbell Preacher Curl",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "barbell-preacher-curl.png",
+    motion_file: "barbell-preacher-curl",
+    description:
+      "Barbell preacher curls are a bicep exercise performed on a preacher curl bench with a barbell, isolating the biceps and providing support for proper form, targeting the front upper arm muscles for increased bicep strength and development.",
+  },
+  {
+    title: "Machine Bicep Curl",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "machine-curl-biceps.png",
+    motion_file: "machine-curl-biceps.gif",
+    description:
+      "Machine bicep curls are a bicep exercise performed on a machine, where the arms are curled against resistance, targeting the bicep muscles for increased arm strength and definition.",
+  },
+  {
+    title: "One Arm Cable Curl",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "one-arm-cable-curl.png",
+    motion_file: "one-arm-cable-curl.gif",
+    description:
+      "One-arm cable curls are a bicep exercise performed with a cable machine, where a cable attachment is pulled towards the body using one arm at a time, targeting the bicep muscles for increased arm strength and definition.",
+  },
+  {
+    title: "Overhead Cable Tricep Extension",
+    difficulty: "Difficult",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "overhead-cable-tricep-extension.png",
+    motion_file: "overhead-cable-tricep-extension.gif",
+    description:
+      "Overhead cable tricep extensions are a tricep exercise performed with a cable machine, where a cable attachment is pulled down overhead, targeting the tricep muscles for improved strength and definition in the back of the arms.",
+  },  
+  {
     title: "Supinated Overhead Press",
     difficulty: "Difficult",
     exhibition_date: "January 20, 2018",
@@ -531,6 +561,16 @@ const exerciseData = [
     motion_file: "overhead-press.gif",
     description:
       "Supinated overhead press, also known as the Arnold press, is an exercise where you perform an overhead press while starting with a supinated (palms facing towards you) grip and rotating the dumbbells as you press up.",
+  },  
+  {
+    title: "Overhead Tricep Extension",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "overhead-tricep-extension.png",
+    motion_file: "overhead-tricep-extension.gif",
+    description:
+      "Overhead tricep extensions are a tricep exercise where a weight is held overhead and the arms are extended, targeting the tricep muscles for increased strength and definition in the back of the arms.",
   },
   {
     title: "Decline Crunch",
