@@ -122,6 +122,7 @@ img {
   border-radius: 10px;
   background-color: var(--light);
   color: var(--dark);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .login-card {
