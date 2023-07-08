@@ -69,6 +69,11 @@ nav a:hover {
   text-decoration: none;
 }
 
+#muscle-group {
+  height: 400px;
+  width: 323px;
+}
+
 .muscleGroup {
   flex: 4;
   background-color: #fff;
@@ -148,6 +153,17 @@ img {
   text-align: center;
   font-weight: bold;
   text-decoration: none;
+}
+
+.about p {
+  font-size: 23px;
+  color: rgb(37, 37, 37)
+}
+
+.about h1 {
+  color: var(--secondary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
 }
 
 #muscle-group {
