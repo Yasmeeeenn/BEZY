@@ -190,8 +190,15 @@ img {
 
 #printables {
   margin: 20px;
-  flex: 0 1 500px;
+  flex: 0 1 800px;
   text-align: center;
+}
+
+#contact {
+  margin: 5px;
+  flex: 0 1 800px;
+  text-align: center;
+  padding: 5px;
 }
 
 @keyframes animate {
