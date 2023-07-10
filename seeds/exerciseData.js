@@ -3,7 +3,7 @@ const { Exercise } = require("../models");
 const exerciseData = [
   {
     title: "Barbell Bench Press",
-    difficulty: "Hard",
+    difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "barbell-bench-press.png",
@@ -23,7 +23,7 @@ const exerciseData = [
   },
   {
     title: "Cable Crossover",
-    difficulty: "Easy",
+    difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "cable-crossover.png",
@@ -33,7 +33,7 @@ const exerciseData = [
   },
   {
     title: "Chest Dips",
-    difficulty: "Moderate",
+    difficulty: "Hard",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "chest-dips.jpg",
@@ -43,7 +43,7 @@ const exerciseData = [
   },
   {
     title: "Decline Cable Fly",
-    difficulty: "Hard",
+    difficulty: "Moderate",
     exhibition_date: "July 4, 2020",
     muscleGroup_id: 1,
     filename: "decline-cable-fly.jpg",
@@ -102,11 +102,41 @@ const exerciseData = [
       "A weighted front raise is an exercise where you hold a weight in front of your body and lift it up to shoulder level, primarily targeting the front deltoid muscles.",
   },
   {
+    title: "Bosu Ball Push-Ups",
+    difficulty: "Hard",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 1,
+    filename: "bosu-ball-push-ups.png",
+    motion_file: "bosu-ball-push-ups.gif",
+    description:
+      "Bosu ball pushups are a variation of pushups performed with the hands on a Bosu ball, challenging stability and engaging core muscles.",
+  },
+  {
+    title: "Pec Fly Machine",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 1,
+    filename: "pec-fly-machine.png",
+    motion_file: "pec-fly-machine.gif",
+    description:
+      "The pec fly machine is a gym equipment that targets the chest muscles by simulating a fly motion, providing resistance and isolation for an effective chest workout.",
+  },
+  {
+    title: "Wide Arm Push-Ups",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 1,
+    filename: "wide-arm-push-ups.png",
+    motion_file: "wide-arm-push-ups.gif",
+    description:
+      "Wide arm pushups are a variation of pushups where the hands are placed wider than shoulder-width apart, targeting the chest, shoulders, and triceps with an emphasis on shoulder stability.",
+  },
+  {
     title: "Squats",
     difficulty: "Hard",
     exhibition_date: "June 10, 2019",
     muscleGroup_id: 2,
-    filename: "squat.jpg",
+    filename: "squat.png",
     motion_file: "squat.gif",
     description:
       "Squats are a compound exercise that targets the lower body muscles by bending at the knees and hips.",
@@ -153,7 +183,7 @@ const exerciseData = [
   },
   {
     title: "Lunge Step-Up",
-    difficulty: "Hard",
+    difficulty: "Moderate",
     exhibition_date: "June 10, 2019",
     muscleGroup_id: 2,
     filename: "lunge-step-up.png",
@@ -172,14 +202,14 @@ const exerciseData = [
       "Pistol squats are a challenging single-leg exercise where you balance on one leg while squatting down to a deep position, effectively targeting the leg muscles and enhancing strength, stability, and mobility.",
   },
   {
-    title: "Split Squat",
+    title: "Bulgarian Split Squat",
     difficulty: "Moderate",
     exhibition_date: "June 10, 2019",
     muscleGroup_id: 2,
     filename: "split-squat.jpg",
     motion_file: "split-squat.gif",
     description:
-      "Split squats, also known as static lunges, are a lower body exercise where one foot is positioned forward and the other foot is positioned back, targeting the quadriceps, glutes, and hamstrings while improving balance and stability.",
+      "Bulgarian split squats are a single-leg exercise where you place the back foot on an elevated surface and perform a deep lunge motion, targeting the leg muscles, particularly the quadriceps and glutes, while improving balance and lower body strength.",
   },
   {
     title: "Sumo Squat",
@@ -191,7 +221,7 @@ const exerciseData = [
     description:
       "Sumo squats are a variation of the squat exercise where you stand with your feet wider than hip-width apart, toes pointed outward, and perform a squat, targeting the inner thighs, glutes, and quadriceps while enhancing lower body strength and stability.",
   },
-    {
+  {
     title: "Glute Bridge",
     difficulty: "Easy",
     exhibition_date: "June 10, 2019",
@@ -202,8 +232,88 @@ const exerciseData = [
       "Glute bridges are a exercise where you lie on your back, bend your knees, and lift your hips off the ground, engaging and strengthening the gluteal muscles.",
   },
   {
+    title: "Barbell Front Squat",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "barbell-front-squat.png",
+    motion_file: "barbell-front-squat.gif",
+    description:
+      "The barbell front squat is an exercise where the barbell is placed in front of the body on the front shoulders, challenging the lower body muscles, particularly the quadriceps, while also engaging the core and upper back for stability.",
+  },
+  {
+    title: "Machine Leg Press",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "leg-press-machine.png",
+    motion_file: "leg-press-machine.gif",
+    description:
+      "The machine leg press is a gym equipment that targets the lower body, particularly the quadriceps, hamstrings, and glutes, by simulating the motion of pushing a weighted platform with the legs.",
+  },
+  {
+    title: "Machine Leg Extension",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "leg-extension-machine.png",
+    motion_file: "leg-extension-machine.gif",
+    description:
+      "The machine leg extension is a gym equipment that specifically targets the quadriceps muscles by allowing you to extend your legs against resistance in a seated position.",
+  },
+  {
+    title: "Barbell Overhead Squat",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "barbell-overhead-squat.png",
+    motion_file: "barbell-overhead-squat.gif",
+    description:
+      "The barbell overhead squat is an advanced exercise where a barbell is held overhead while performing a full squat, challenging the entire body's strength, mobility, and stability.",
+  },
+  {
+    title: "Mountain Climbers",
+    difficulty: "Easy",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "mountain-climbers.png",
+    motion_file: "mountain-climbers.gif",
+    description:
+      "Mountain climbers are a dynamic exercise that involves alternating leg movements, resembling climbing a mountain, and they engage the core, arms, and legs for a challenging cardiovascular and full-body workout.",
+  },
+  {
+    title: "Barbell Hip Thrusts",
+    difficulty: "Easy",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "barbell-hip-thrusts.png",
+    motion_file: "barbell-hip-thrusts.gif",
+    description:
+      "Barbell hip thrusts are a lower body exercise where the barbell is placed across the hips and thrusting the hips upward, activating and strengthening the glutes and hamstrings for improved hip extension and overall lower body strength.",
+  },
+  {
+    title: "Goblet Squats",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "goblet-squats.png",
+    motion_file: "goblet-squats.gif",
+    description:
+      "Barbell hip thrusts are a highly effective exercise for targeting and strengthening the glutes, involving a horizontal movement pattern where the barbell rests on the hips and the hips are lifted off the ground.",
+  },
+  {
+    title: "Lying Hamstring Curl",
+    difficulty: "Moderate",
+    exhibition_date: "June 10, 2019",
+    muscleGroup_id: 2,
+    filename: "lying-hamstring-curl.png",
+    motion_file: "lying-hamstring-curl.gif",
+    description:
+      "Lying hamstring curls are a leg exercise performed lying face down on a machine, where the ankles are hooked under a padded lever and the legs are flexed against resistance to target and strengthen the hamstring muscles.",
+  },
+  {
     title: "Pull-Ups",
-    difficulty: "Hard",
+    difficulty: "Moderate",
     exhibition_date: "November 3, 2016",
     muscleGroup_id: 3,
     filename: "pull-up.png",
@@ -233,7 +343,7 @@ const exerciseData = [
   },
   {
     title: "Underhand Chin-Ups",
-    difficulty: "Moderate",
+    difficulty: "Hard",
     exhibition_date: "November 3, 2016",
     muscleGroup_id: 3,
     filename: "underhand-chin-up.png",
@@ -242,14 +352,14 @@ const exerciseData = [
       "The underhand chin-up is a variation of the traditional chin-up exercise targeting the muscles of the back, biceps, and shoulders.",
   },
   {
-    title: "Dumbbell Row",
+    title: "Incline Dumbbell Row",
     difficulty: "Moderate",
     exhibition_date: "November 3, 2016",
     muscleGroup_id: 3,
     filename: "dumbbell-row.png",
     motion_file: "dumbbell-row.gif",
     description:
-      "Dumbbell rows are a compound exercise where you bend forward, support your body with one hand on a bench, and pull a dumbbell up to your side, targeting the back muscles, particularly the lats and rhomboids.",
+      "Incline dumbbell rows are a back exercise performed on an incline bench, where the dumbbells are rowed towards the chest, targeting the muscles of the upper back, including the rhomboids, rear deltoids, and latissimus dorsi.",
   },
   {
     title: "Hyperextensions",
@@ -302,6 +412,36 @@ const exerciseData = [
       "Dumbbell pull-overs are an exercise where you lie on a bench, hold a dumbbell above your chest, and lower it behind your head in a controlled motion, engaging the chest, back, and shoulder muscles.",
   },
   {
+    title: "Seated Cable Row",
+    difficulty: "Easy",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 3,
+    filename: "cable-seated-row.png",
+    motion_file: "cable-seated-row.gif",
+    description:
+      "Seated cable rows are a back exercise performed on a cable machine, where a seated position and a cable handle are used to pull the weight towards the torso, engaging the muscles of the upper back.",
+  },
+  {
+    title: "One Arm Shotgun Row",
+    difficulty: "Easy",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 3,
+    filename: "shotgun-row.png",
+    motion_file: "shotgun-row.gif",
+    description:
+      "Standing one-arm shotgun row is a back exercise performed while standing, using a handle attachment on a cable machine to pull the weight towards the torso in a rowing motion, targeting the muscles of the upper back.",
+  },
+  {
+    title: "Cable Row Lat Pushdown",
+    difficulty: "Moderate",
+    exhibition_date: "July 4, 2020",
+    muscleGroup_id: 3,
+    filename: "cable-row-lat-pushdown.png",
+    motion_file: "cable-row-lat-pushdown.gif",
+    description:
+      "Cable row lat pushdown, also known as the lat pulldown, is an exercise where a cable machine is used to pull a bar down towards the chest, primarily targeting the latissimus dorsi muscles for upper back and arm strength.",
+  },
+  {
     title: "Tricep Kickback",
     difficulty: "Easy",
     exhibition_date: "December 24, 2020",
@@ -313,23 +453,13 @@ const exerciseData = [
   },
   {
     title: "Barbell Curl",
-    difficulty: "Easy",
+    difficulty: "Moderate",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 4,
     filename: "barbell-curl.png",
     motion_file: "barbell-curl.gif",
     description:
       "The barbell curl primarily targets the biceps brachii, the muscles on the front of the upper arm.",
-  },
-  {
-    title: "Shoulder Press",
-    difficulty: "Moderate",
-    exhibition_date: "January 20, 2018",
-    muscleGroup_id: 4,
-    filename: "shoulder-press.jpg",
-    motion_file: "shoulder-press.gif",
-    description:
-      "The shoulder press, also referred to as the military press, is an exercise where you press a weight overhead from shoulder level, targeting the deltoid muscles and enhancing upper body strength, stability, and shoulder mobility.",
   },
   {
     title: "Hammer Curl",
@@ -371,16 +501,7 @@ const exerciseData = [
     description:
       "Incline bicep curls are a variation of the bicep curl exercise where you sit on an incline bench and perform curls, targeting the biceps muscles from a different angle to enhance muscle development and strength in the upper arms.",
   },
-  {
-    title: "Lateral Raise",
-    difficulty: "Difficult",
-    exhibition_date: "January 20, 2018",
-    muscleGroup_id: 4,
-    filename: "lateral-raise.png",
-    motion_file: "lateral-raise.gif",
-    description:
-      "Lateral raises are a shoulder exercise where you hold dumbbells by your sides and lift them out to the sides, parallel to the ground, targeting the deltoid muscles and improving shoulder strength and definition.",
-  },
+  
   {
     title: "Dips",
     difficulty: "Moderate",
@@ -391,15 +512,65 @@ const exerciseData = [
     description:
       "Bench dips are a bodyweight exercise performed with your hands on a bench behind you, lowering your body by bending your arms, and then pushing back up, primarily targeting the triceps while improving upper body strength and tone.",
   },
-    {
-    title: "Overhead Press",
+  {
+    title: "Barbell Preacher Curl",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "barbell-preacher-curl.png",
+    motion_file: "barbell-preacher-curl",
+    description:
+      "Barbell preacher curls are a bicep exercise performed on a preacher curl bench with a barbell, isolating the biceps and providing support for proper form, targeting the front upper arm muscles for increased bicep strength and development.",
+  },
+  {
+    title: "Machine Bicep Curl",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "machine-curl-biceps.png",
+    motion_file: "machine-curl-biceps.gif",
+    description:
+      "Machine bicep curls are a bicep exercise performed on a machine, where the arms are curled against resistance, targeting the bicep muscles for increased arm strength and definition.",
+  },
+  {
+    title: "One Arm Cable Curl",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "one-arm-cable-curl.png",
+    motion_file: "one-arm-cable-curl.gif",
+    description:
+      "One-arm cable curls are a bicep exercise performed with a cable machine, where a cable attachment is pulled towards the body using one arm at a time, targeting the bicep muscles for increased arm strength and definition.",
+  },
+  {
+    title: "Overhead Cable Tricep Extension",
+    difficulty: "Difficult",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "overhead-cable-tricep-extension.png",
+    motion_file: "overhead-cable-tricep-extension.gif",
+    description:
+      "Overhead cable tricep extensions are a tricep exercise performed with a cable machine, where a cable attachment is pulled down overhead, targeting the tricep muscles for improved strength and definition in the back of the arms.",
+  },  
+  {
+    title: "Supinated Overhead Press",
     difficulty: "Difficult",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 4,
     filename: "overhead-press.jpg",
     motion_file: "overhead-press.gif",
     description:
-      "The overhead press, also known as the shoulder press, is an exercise where you push a weight upward from shoulder level to an overhead position, primarily targeting the deltoid muscles while improving upper body strength and stability.",
+      "Supinated overhead press, also known as the Arnold press, is an exercise where you perform an overhead press while starting with a supinated (palms facing towards you) grip and rotating the dumbbells as you press up.",
+  },  
+  {
+    title: "Overhead Tricep Extension",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 4,
+    filename: "overhead-tricep-extension.png",
+    motion_file: "overhead-tricep-extension.gif",
+    description:
+      "Overhead tricep extensions are a tricep exercise where a weight is held overhead and the arms are extended, targeting the tricep muscles for increased strength and definition in the back of the arms.",
   },
   {
     title: "Decline Crunch",
@@ -463,7 +634,7 @@ const exerciseData = [
   },
   {
     title: "Dead Bug",
-    difficulty: "Easy",
+    difficulty: "Moderate",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 5,
     filename: "dead-bug.jpg",
@@ -510,6 +681,106 @@ const exerciseData = [
     motion_file: "russian-twist.gif",
     description:
       "Russian twists are a core exercise where you sit on the floor, lean back slightly, and rotate your torso from side to side, engaging the abdominal muscles and obliques while improving core stability and rotational strength.",
+  },
+  {
+    title: "Shoulder Press",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "shoulder-press.jpg",
+    motion_file: "shoulder-press.gif",
+    description:
+      "The shoulder press, also referred to as the military press, is an exercise where you press a weight overhead from shoulder level, targeting the deltoid muscles and enhancing upper body strength, stability, and shoulder mobility.",
+  },
+  {
+    title: "Lateral Raise",
+    difficulty: "Difficult",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "lateral-raise.png",
+    motion_file: "lateral-raise.gif",
+    description:
+      "Lateral raises are a shoulder exercise where you hold dumbbells by your sides and lift them out to the sides, parallel to the ground, targeting the deltoid muscles and improving shoulder strength and definition.",
+  },
+  {
+    title: "Barbell Upright Rows",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "barbell-uprightrow.png",
+    motion_file: "barbell-uprightrow.gif",
+    description:
+      "Barbell upright rows are a shoulder exercise where a barbell is lifted in front of the body, focusing on the muscles of the shoulders, primarily the deltoids and upper traps, to improve shoulder strength and stability.",
+  },
+  {
+    title: "Battle Ropes",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "battle-ropes.png",
+    motion_file: "battle-ropes.gif",
+    description:
+      "Battle ropes exercises involve swinging, slamming, or waving long ropes in various patterns, providing a high-intensity full-body workout that targets the upper body, core, and cardiovascular system for improved strength, endurance, and calorie burn.",
+  },
+  {
+    title: "Bent Over Lateral Raise",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "bent-over-lateral-raises.png",
+    motion_file: "bent-over-lateral-raises.gif",
+    description:
+      "Bent over lateral raises are a shoulder exercise where the body is bent forward at the hips, and the arms are lifted to the sides, targeting the lateral deltoids for improved shoulder strength and definition.",
+  },
+  {
+    title: "Dumbbell Front Raise",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "dumbbell-front-raises.png",
+    motion_file: "dumbbell-front-raises.gif",
+    description:
+      "Dumbbell front raises are a shoulder exercise where the dumbbells are lifted in front of the body, targeting the front deltoids for improved shoulder strength and definition.",
+  },
+  {
+    title: "Cable One Arm Lateral Raise",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "cable-one-arm-lateral-raise.png",
+    motion_file: "cable-one-arm-lateral-raise.gif",
+    description:
+      "Cable one-arm lateral raises are a shoulder exercise performed with a cable machine, where the arm is lifted to the side against resistance, targeting the medial deltoid for improved shoulder strength and definition.",
+  },
+  {
+    title: "Dumbbell Shrugs",
+    difficulty: "Easy",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "dumbbell-shrugs.png",
+    motion_file: "dumbbell-shrugs.gif",
+    description:
+      "Dumbbell shrugs are a trap exercise where dumbbells are lifted with the shoulders, targeting the trapezius muscles for improved upper back and neck strength and stability.",
+  },
+  {
+    title: "Plate Front Raise",
+    difficulty: "Moderate",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "plate-front-raises.png",
+    motion_file: "plate-front-raises.gif",
+    description:
+      "Plate front raises are a shoulder exercise where a weight plate is held with both hands and lifted in front of the body, targeting the front deltoids for improved shoulder strength and definition.",
+  },
+  {
+    title: "Handstand Push-Ups",
+    difficulty: "Difficult",
+    exhibition_date: "January 20, 2018",
+    muscleGroup_id: 6,
+    filename: "handstand-pushup.png",
+    motion_file: "handstand-pushup.gif",
+    description:
+      "Handstand pushups are a challenging bodyweight exercise where the body is inverted in a handstand position, and the arms are used to lower and lift the body, primarily targeting the shoulders and triceps for upper body strength and stability.",
   },
 ];
 
