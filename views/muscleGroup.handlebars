@@ -1,0 +1,21 @@
+<section class="container">
+  <h3 class="muscleGroup-name">{{muscleGroup.name}}</h3>
+  
+  <!-- If the user is logged in, render the gallery content -->
+  {{#if loggedIn}}
+  <section class="flex-row justify-center">
+    {{#each muscleGroup.exercises as |exercise|}}
+    {{> exercise-details}}
+    {{/each}}
+  </section>
+</section>
+<!-- Otherwise, provide a link to login -->
+{{else}}
+<a href="/login">You must login first to view Exercise Index</a>
+{{/if}}
+<style>
+@import url('https://fonts.cdnfonts.com/css/gold-lines-serif-trial');
+</style>
+                
+                     
+

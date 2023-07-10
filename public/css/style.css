@@ -1,8 +1,8 @@
 :root {
-  --primary: #3d5852;
-  --secondary: #86938f;
-  --tertiary: #5e877f;
-  --quatrinary: #6c6b67;
+  --primary: #041822;
+  --secondary: #e3c49e;
+  --tertiary: #07084100;
+  --quatrinary: #989898;
   --light: #e3e4e3;
   --dark: #182c23;
   --error: rgb(228, 46, 1);
@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: "Gold Lines Serif Trial", sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -31,6 +31,7 @@ a:visited {
 header {
   padding: 40px;
   text-align: center;
+  text-decoration: none;
   background: var(--primary);
   color: var(--light);
 }
@@ -39,6 +40,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
+  color: var(--quatrinary);
 }
 
 aside {
@@ -64,9 +66,15 @@ nav a {
 nav a:hover {
   color: var(--secondary);
   background-color: var(--dark);
+  text-decoration: none;
 }
 
-.gallery {
+#muscle-group {
+  height: 400px;
+  width: 323px;
+}
+
+.muscleGroup {
   flex: 4;
   background-color: #fff;
   padding: 50px;
@@ -92,14 +100,14 @@ img {
   height: auto;
 }
 
-.painting {
+.exercise {
   width: 50%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
 }
 
-.painting-details {
+.exercise-details {
   text-align: center;
   padding: 10px 20px;
   font-weight: bold;
@@ -107,12 +115,14 @@ img {
 
 /* CARDS */
 .card {
+  text-decoration: none;
   margin: 20px;
   flex: 0 1 300px;
   border: 7px double var(--dark);
   border-radius: 10px;
   background-color: var(--light);
   color: var(--dark);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .login-card {
@@ -129,8 +139,9 @@ img {
 }
 
 .card header {
-  color: var(--light);
+  color: var(--dark);
   font-weight: bold;
+  font-size: 30px;
   text-transform: uppercase;
   margin: 0;
   background-color: var(--tertiary);
@@ -142,23 +153,179 @@ img {
   font-size: 1.4rem;
   text-align: center;
   font-weight: bold;
+  text-decoration: none;
 }
 
-.gallery-name {
+.about p {
+  font-size: 23px;
+  color: rgb(37, 37, 37)
+}
+
+.about h1 {
+  color: var(--secondary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 50px;
+}
+
+#muscle-group {
+  height: 400px;
+  width: 323px;
+}
+
+.muscleGroup-name {
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-shadow: 2px 2px 5px var(--secondary);
-  border: 10px groove var(--light);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 100px;
-  padding-left: 100px;
+  font-size: 7vw;
+  color: white;
+  -webkit-text-stroke: 0.3vw #577a7c;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+  border-right: 1px solid rgb(0, 0, 0);
 }
 
-/* LAYOUT */
-.container {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: flex-start;
-  align-items: center;
+#printables {
+  margin: 20px;
+  flex: 0 1 800px;
+  text-align: center;
 }
+
+#contact {
+  margin: 5px;
+  flex: 0 1 800px;
+  text-align: center;
+  padding: 5px;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+  70%,
+  80% {
+    width: 100%;
+  }
+}
+
+form{
+  background: rgba(27,31,34,0.80);
+  width: 640px;
+  margin: 50px auto;
+  max-width: 97%;
+  border-radius: 4px;
+  padding: 55px 30px;
+}
+
+form .title h2{
+  letter-spacing: 6px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+form .half{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .half .item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+form label{
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+}
+
+form .half .item input{
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+}
+
+form .full{
+  margin-bottom: 24px;
+}
+
+form .full textarea{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  outline: 0;
+  padding: 12px 16px;
+  width: 100%;
+  height: 200px;
+  font-size: 17px;
+}
+
+form .action{
+  margin-bottom: 32px;
+}
+
+form .action input{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+}
+
+form .action input[type="submit"]{
+  background: white;
+  color: black;
+}
+
+form .icons a{
+  border: 1px solid white;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600;
+  width: 38px;
+  margin-right: 10px;
+}
+
+form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
+  background: rgba(255,255,255,0.075);
+}
+
+@media (max-width: 480px){
+  form .half{
+    flex-direction: column;
+  }
+  form .half .item{
+    width: 100%;
+  }
+  form .action{
+    display: flex;
+    flex-direction: column;
+  }
+  form .action input{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
