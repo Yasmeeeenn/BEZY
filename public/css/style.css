@@ -171,6 +171,11 @@ img {
   border-right: 1px solid rgb(0, 0, 0);
 }
 
+.contact-container {
+  font-size: 5rem;
+  
+}
+
 
 
 @keyframes animate {
