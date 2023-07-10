@@ -544,7 +544,7 @@ const exerciseData = [
   },
   {
     title: "Overhead Cable Tricep Extension",
-    difficulty: "Difficult",
+    difficulty: "Hard",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 4,
     filename: "overhead-cable-tricep-extension.png",
@@ -554,7 +554,7 @@ const exerciseData = [
   },  
   {
     title: "Supinated Overhead Press",
-    difficulty: "Difficult",
+    difficulty: "Hard",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 4,
     filename: "overhead-press.jpg",
@@ -694,7 +694,7 @@ const exerciseData = [
   },
   {
     title: "Lateral Raise",
-    difficulty: "Difficult",
+    difficulty: "Hard",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 6,
     filename: "lateral-raise.png",
@@ -774,7 +774,7 @@ const exerciseData = [
   },
   {
     title: "Handstand Push-Ups",
-    difficulty: "Difficult",
+    difficulty: "Hard",
     exhibition_date: "January 20, 2018",
     muscleGroup_id: 6,
     filename: "handstand-pushup.png",
